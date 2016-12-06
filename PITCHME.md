@@ -38,7 +38,7 @@ part of these slides were based on several sources of information, namely:
 #HSLIDE
 ## sample HTML document
 ### layout structure
-![](images/html-boxes.svg)
+![](html-boxes.svg.png)
 
 #HSLIDE
 ## sample HTML document
