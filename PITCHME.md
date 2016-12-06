@@ -37,11 +37,11 @@ part of these slides were based on several sources of information, namely:
 ```
 #HSLIDE
 ## sample HTML document
-### layout structure
+#### layout structure
 <img src="html-boxes.svg.png" alt="Drawing" style="width: 400px;"/>
 
 #HSLIDE
 ## sample HTML document
-### tree
-![](html-tree.svg.png)
+#### tree
+<img src="html-tree.svg.png" alt="Drawing" style="width: 400px;"/>
 
