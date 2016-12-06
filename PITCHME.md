@@ -45,3 +45,7 @@ part of these slides were based on several sources of information, namely:
 #### tree
 <img src="html-tree.svg.png" alt="Drawing" style="width: 400px;"/>
 
+#HSLIDE
+## sample HTML document
+#### dom navigation
+<img src="html-links.svg.png" alt="Drawing" style="width: 400px;"/>
