@@ -1,8 +1,8 @@
-# HSLIDE
+#HSLIDE
 ## DOM
 ### Document Object Model
 
-# HSLIDE
+#HSLIDE
 #### disclaimer
 part of these slides were based on several sources of information, namely:
 
@@ -11,14 +11,14 @@ part of these slides were based on several sources of information, namely:
 
 
 
-# HSLIDE
+#HSLIDE
 ## The Document Object Model
 * programming interface for HTML, XML, SVG
 * document as a tree
 * nodes and objects 
 
 
-# HSLIDE
+#HSLIDE
 ## sample HTML document
 ### html code
 ```html
@@ -35,12 +35,12 @@ part of these slides were based on several sources of information, namely:
   </body>
 </html>
 ```
-# HSLIDE
+#HSLIDE
 ## sample HTML document
 ### layout structure
 ![](images/html-boxes.svg)
 
-# HSLIDE
+#HSLIDE
 ## sample HTML document
 ### tree
 ![](images/html-tree.svg)
