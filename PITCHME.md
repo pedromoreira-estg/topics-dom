@@ -53,45 +53,85 @@ part of these slides were based on several sources of information, namely:
 #HSLIDE
 #### locating elements
 
-##### Locating by id:
+**Locating by id**
+
+returns an ```Element```
 
 ```
 // returns an element
-e = document.getElementById(id);
+var e = document.getElementById(id);
 ```
 
-##### Locating by Tag Name:
+**Locating by Tag Name**
+
+returns a **live** ```HTMLCollection```
 
 ```
-// returns a node list
-nl = document.getElementsByTagName(tagName);
-nl = <element>.getElementsByTagName(tagName);
+var nl = document.getElementsByTagName(tagName);
+var nl = <element>.getElementsByTagName(tagName);
 ```
 
-##### Locating by Class Name
+**Locating by Class Name**
+
+returns a **live** ```HTMLCollection```
 
 ```
-// returns a node list
-nl = document.getElementsByClassName(className);
-nl = <element>.getElementsByClassName(className);
+var nl = document.getElementsByClassName(classNames);
+var nl = <element>.getElementsByClassName(classNames);
 ```
 
 #HSLIDE
 #### selecting nodes
 
-##### selecting by query selector:
+**selecting by query selector**
+
+retuns the first Element that matches
 
 ```
-// retuns the first Element e that match
-e = document.querySelector(cssQuery);
+var e = document.querySelector(cssQuery);
 // also available at the Element interface
-e = <element>.querySelector(cssQuery);
+var e = <element>.querySelector(cssQuery);
+```
 
-// returns a nl NodeList that match
-nl = document.querySelectorAll(cssQuery);
-// also available at the Element interface
-nl = <element>.querySelector(cssQuery);
+
+retuns a **non-live** NodeList that matches
 
 ```
+// returns a nl NodeList that matches
+var nl = document.querySelectorAll(cssQuery);
+// also available at the Element interface
+var nl = <element>.querySelector(cssQuery);
+
+```
+
+
+#HSLIDE
+#### creating nodes
+
+```
+var e = document.createElement(tagName[, options]);
+var new = document.createTextNode(text); 
+```
+
+#HSLIDE
+#### replacing nodes
+
+```
+var e = document.createElement(tagName[, options]);
+var new = document.createTextNode(text); 
+```
+
+#HSLIDE
+#### inserting nodes
+
+The Node.appendChild() method adds a node to the end of the list of children of a specified parent node. If the node is already parented then it is reparented.
+
+The Node.insertBefore() method inserts the specified node before the reference node as a child of the current node.
+
+```
+var n = element.appendChild(n); 
+var insertedNode = parentNode.insertBefore(newNode, referenceNode);
+```
+
 
 
