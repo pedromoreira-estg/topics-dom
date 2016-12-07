@@ -53,22 +53,27 @@ part of these slides were based on several sources of information, namely:
 #HSLIDE
 #### locating elements
 
-#####Locating by id:
+##### Locating by id:
 
 ```
-document.getElementById(id);
+// returns an element
+e = document.getElementById(id);
 ```
 
-#####Locating by Tag Name:
+##### Locating by Tag Name:
 
 ```
-document.getElementsByTagName(tagName);
+// returns a node list
+nl = document.getElementsByTagName(tagName);
+nl = <element>.getElementsByTagName(tagName);
 ```
 
-#####Locating by Class Name
+##### Locating by Class Name
 
 ```
-document.getElementsByClassName(className);
+// returns a node list
+nl = document.getElementsByClassName(className);
+nl = <element>.getElementsByClassName(className);
 ```
 
 #HSLIDE
@@ -77,12 +82,12 @@ document.getElementsByClassName(className);
 ##### selecting by query selector:
 
 ```
-// retuns the first Element `e` that match
+// retuns the first Element e that match
 e = document.querySelector(cssQuery);
 // also available at the Element interface
 e = <element>.querySelector(cssQuery);
 
-// returns a `nl` NodeList that match
+// returns a nl NodeList that match
 nl = document.querySelectorAll(cssQuery);
 // also available at the Element interface
 nl = <element>.querySelector(cssQuery);
