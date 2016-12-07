@@ -49,3 +49,44 @@ part of these slides were based on several sources of information, namely:
 ## sample HTML document
 #### dom navigation
 <img src="html-links.svg.png" alt="Drawing" style="width: 400px;"/>
+
+#HSLIDE
+#### locating elements
+
+#####Locating by id:
+
+```
+document.getElementById(id);
+```
+
+#####Locating by Tag Name:
+
+```
+document.getElementsByTagName(tagName);
+```
+
+#####Locating by Class Name
+
+```
+document.getElementsByClassName(className);
+```
+
+#HSLIDE
+#### selecting nodes
+
+##### selecting by query selector:
+
+```
+// retuns the first Element `e` that match
+e = document.querySelector(cssQuery);
+// also available at the Element interface
+e = <element>.querySelector(cssQuery);
+
+// returns a `nl` NodeList that match
+nl = document.querySelectorAll(cssQuery);
+// also available at the Element interface
+nl = <element>.querySelector(cssQuery);
+
+```
+
+
